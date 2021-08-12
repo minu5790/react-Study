@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './components/counter';
+
+import Profile from './components/profile';
 
 function App() {
   return (
     <div className="App">
 
 
-
-      <Counter/>
+      <Profile id={1}/>
     </div>
   );
 }
